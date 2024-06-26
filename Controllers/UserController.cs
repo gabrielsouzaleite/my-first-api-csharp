@@ -1,4 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using MyFirstApi.Communication.Requests;
+using MyFirstApi.Communication.Responses;
 
 namespace MyFirstApi.Controllers;
 
@@ -7,11 +9,38 @@ namespace MyFirstApi.Controllers;
 public class UserController : ControllerBase
 {
     [HttpGet]
-    [ProducesResponseType(StatusCodes.Status200OK)]
-    [ProducesResponseType(StatusCodes.Status400BadRequest)]
-    public IActionResult Get()
+    [Route("{id}")]
+    [ProducesResponseType(typeof(User), StatusCodes.Status200OK)]
+    [ProducesResponseType(typeof(string), StatusCodes.Status400BadRequest)]
+    public IActionResult GetById([FromRoute] int id)
     {
-        return Ok("Gabriel Souza Leite");
+        var response = new User
+        {
+            Id = 1,
+            Age = 24,
+            Name = "Gabriel"
+        };
+        return Ok(response);
+    }
+
+    [HttpPost]
+    [ProducesResponseType(typeof(ResponseRegisteredUserJson), StatusCodes.Status201Created)]
+    public IActionResult Create([FromBody] RequestRegisterUserJson request)
+    {
+        var response = new ResponseRegisteredUserJson
+        {
+            Id = 1,
+            Name = request.Name
+        };
+
+        return Created(string.Empty, response);
+    }
+
+    [HttpPut]
+    [ProducesResponseType(StatusCodes.Status204NoContent)]
+    public IActionResult Update([FromBody] RequestUpdateUserProfileJson request)
+    {
+        return NoContent();
     }
 }
 

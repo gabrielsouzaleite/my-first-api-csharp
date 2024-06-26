@@ -7,8 +7,16 @@
       "RelativeMoniker": "D:0:0:{EE84C30C-D9FB-4390-A888-898160B7E801}|MyFirstApi.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EE84C30C-D9FB-4390-A888-898160B7E801}|MyFirstApi.csproj|c:\\users\\gabriel\\documents\\projetos\\myfirstapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EE84C30C-D9FB-4390-A888-898160B7E801}|MyFirstApi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EE84C30C-D9FB-4390-A888-898160B7E801}|MyFirstApi.csproj|c:\\users\\gabriel\\documents\\projetos\\myfirstapi\\communication\\requests\\requestupdateuserprofilejson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE84C30C-D9FB-4390-A888-898160B7E801}|MyFirstApi.csproj|solutionrelative:communication\\requests\\requestupdateuserprofilejson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE84C30C-D9FB-4390-A888-898160B7E801}|MyFirstApi.csproj|c:\\users\\gabriel\\documents\\projetos\\myfirstapi\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE84C30C-D9FB-4390-A888-898160B7E801}|MyFirstApi.csproj|solutionrelative:user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE84C30C-D9FB-4390-A888-898160B7E801}|MyFirstApi.csproj|c:\\users\\gabriel\\documents\\projetos\\myfirstapi\\communication\\responses\\responseregistereduserjson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE84C30C-D9FB-4390-A888-898160B7E801}|MyFirstApi.csproj|solutionrelative:communication\\responses\\responseregistereduserjson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,28 +62,54 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RequestUpdateUserProfileJson.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel\\Documents\\projetos\\MyFirstApi\\Communication\\Requests\\RequestUpdateUserProfileJson.cs",
+              "RelativeDocumentMoniker": "Communication\\Requests\\RequestUpdateUserProfileJson.cs",
+              "ToolTip": "C:\\Users\\Gabriel\\Documents\\projetos\\MyFirstApi\\Communication\\Requests\\RequestUpdateUserProfileJson.cs",
+              "RelativeToolTip": "Communication\\Requests\\RequestUpdateUserProfileJson.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T09:12:34.112Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ResponseRegisteredUserJson.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel\\Documents\\projetos\\MyFirstApi\\Communication\\Responses\\ResponseRegisteredUserJson.cs",
+              "RelativeDocumentMoniker": "Communication\\Responses\\ResponseRegisteredUserJson.cs",
+              "ToolTip": "C:\\Users\\Gabriel\\Documents\\projetos\\MyFirstApi\\Communication\\Responses\\ResponseRegisteredUserJson.cs",
+              "RelativeToolTip": "Communication\\Responses\\ResponseRegisteredUserJson.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T09:01:57.47Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel\\Documents\\projetos\\MyFirstApi\\User.cs",
+              "RelativeDocumentMoniker": "User.cs",
+              "ToolTip": "C:\\Users\\Gabriel\\Documents\\projetos\\MyFirstApi\\User.cs",
+              "RelativeToolTip": "User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T08:30:28.124Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Users\\Gabriel\\Documents\\projetos\\MyFirstApi\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "Controllers\\UserController.cs",
               "ToolTip": "C:\\Users\\Gabriel\\Documents\\projetos\\MyFirstApi\\Controllers\\UserController.cs",
               "RelativeToolTip": "Controllers\\UserController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA5AAAA",
+              "ViewState": "AQIAABwAAAAAAAAAAAAgwCYAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-13T23:41:21.63Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Gabriel\\Documents\\projetos\\MyFirstApi\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Gabriel\\Documents\\projetos\\MyFirstApi\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAkAAABBAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T23:36:22.721Z",
               "EditorCaption": ""
             }
           ]
