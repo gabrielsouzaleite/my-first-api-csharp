@@ -4,9 +4,7 @@ using MyFirstApi.Communication.Responses;
 
 namespace MyFirstApi.Controllers;
 
-[Route("api/[controller]")]
-[ApiController]
-public class UserController : ControllerBase
+public class UserController : MyFirstApiBaseController
 {
     [HttpGet]
     [Route("{id}")]
@@ -39,6 +37,36 @@ public class UserController : ControllerBase
     [HttpPut]
     [ProducesResponseType(StatusCodes.Status204NoContent)]
     public IActionResult Update([FromBody] RequestUpdateUserProfileJson request)
+    {
+        return NoContent();
+    }
+
+    [HttpDelete]
+    [Route("{id}")]
+    [ProducesResponseType(StatusCodes.Status204NoContent)]
+    public IActionResult Delete([FromRoute] int id)
+    {
+        return NoContent();
+    }
+
+    [HttpGet]
+    [ProducesResponseType(typeof(List<User>), StatusCodes.Status200OK)]
+    public IActionResult GetAll()
+    {
+        var response = new List<User>()
+        {
+            new User { Id = 1, Age = 24, Name = "Gabriel" },
+            new User { Id = 2, Age = 40, Name = "Rafael" }
+        };
+
+        var key = GetCustomKey();
+
+        return Ok(key);
+    }
+
+    [HttpPut("change-password")]
+    [ProducesResponseType(StatusCodes.Status204NoContent)]
+    public IActionResult ChangePassword([FromBody] RequestChangePasswordJson request)
     {
         return NoContent();
     }

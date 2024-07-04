@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Gabriel\\Documents\\projetos\\MyFirstApi\\MyFirstApi.csproj": {}
+    "C:\\Users\\gabriel.leite\\Documents\\Gabriel\\my-first-api-csharp\\MyFirstApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Gabriel\\Documents\\projetos\\MyFirstApi\\MyFirstApi.csproj": {
+    "C:\\Users\\gabriel.leite\\Documents\\Gabriel\\my-first-api-csharp\\MyFirstApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Gabriel\\Documents\\projetos\\MyFirstApi\\MyFirstApi.csproj",
+        "projectUniqueName": "C:\\Users\\gabriel.leite\\Documents\\Gabriel\\my-first-api-csharp\\MyFirstApi.csproj",
         "projectName": "MyFirstApi",
-        "projectPath": "C:\\Users\\Gabriel\\Documents\\projetos\\MyFirstApi\\MyFirstApi.csproj",
-        "packagesPath": "C:\\Users\\Gabriel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Gabriel\\Documents\\projetos\\MyFirstApi\\obj\\",
+        "projectPath": "C:\\Users\\gabriel.leite\\Documents\\Gabriel\\my-first-api-csharp\\MyFirstApi.csproj",
+        "packagesPath": "C:\\Users\\gabriel.leite\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\gabriel.leite\\Documents\\Gabriel\\my-first-api-csharp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Gabriel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\gabriel.leite\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -73,7 +73,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.301/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
